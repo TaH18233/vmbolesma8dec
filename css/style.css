@@ -1,0 +1,197 @@
+    body {
+        margin: 0;
+    }
+/*mobile*/
+@media screen and (max-width: 590px) {
+    #header {
+        height: 10vw;
+        width: 100%;
+        background-color: black;
+    }
+
+    #logo {
+        background-image: url("../images/malogo.png");
+        width: 10vw;
+        height: 10vw;
+        float: left;
+        margin-left: 0vw;
+        background-size: cover;
+    }
+
+    h1 {
+        padding-top: 1vw;
+        margin-top: 0;
+        margin-right: 15vw;
+        color: magenta;
+        font-family: papyrus;
+        font-size: 5vw;
+        float: right;
+    }
+
+    iframe {
+        width: 90vw !important;
+        height: 60vw !important;
+        border: 2px solid magenta;
+        float: left;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+
+    }
+
+    #image {
+        float: left;
+        background-image: url("../images/mafotoblok.png");
+        width: 60vw;
+        height: 40vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 5vw;
+        margin-top: 5vw;
+        border: 2px double magenta;
+    }
+
+    #tekst {
+        float: right;
+        border: 2px double magenta;
+        width: 60vw;
+        margin-right: 5vw;
+        margin-top: 5vw;
+    }
+
+    #tekst h3 {
+        font-size: 4vw;
+        font-family: "Times New Roman";
+    }
+
+    #tekst p {
+        margin-right: 0.5vw;
+        margin-left: 0.5vw;
+        font-size: 3vw;
+        font-family: "Times New Roman";
+    }
+
+    #myCanvas {
+        width: 90vw;
+        height: 60vw;
+        margin: auto;
+        display: block;
+        border: solid 2px magenta;
+        margin-bottom: 5vw;
+    }
+
+    #footer{
+        margin-bottom: 0;
+        width: 100%;
+        height: 15vw;
+        background-color: black;
+    }
+    #footer p {
+        padding-top: 2vw;
+        margin-left: 27vw;
+        font-family: papyrus;
+        color: magenta;
+        font-size: 4vw;
+    }
+}
+
+
+/*pc*/
+@media screen and (min-width: 600px) {
+    #header {
+        height: 6vw;
+        width: 100%;
+        background-color: black;
+    }
+
+    #logo {
+        background-image: url("../images/malogo.png");
+        width: 6vw;
+        height: 6vw;
+        float: left;
+        margin-left: 0vw;
+        background-size: cover;
+    }
+
+    h1 {
+        padding-top: 1vw;
+        margin-top: 0;
+        margin-right: 30vw;
+        color: magenta;
+        font-family: papyrus;
+        font-size: 3vw;
+        float: right;
+    }
+
+    iframe {
+        width: 60vw !important;
+        height: 30vw !important;
+        border: 2px solid magenta;
+        float: left;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+
+    }
+
+    #image {
+        float: left;
+        background-image: url("../images/mafotoblok.png");
+        width: 40vw;
+        height: 20vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 5vw;
+        margin-top: 5vw;
+    }
+
+    #tekst {
+        float: right;
+        border: 2px double magenta;
+        width: 40vw;
+        margin-right: 5vw;
+        margin-top: 5vw;
+    }
+
+    #tekst h3 {
+        font-size: 2vw;
+        font-family: "Times New Roman";
+    }
+
+    #tekst p {
+        margin-right: 0.5vw;
+        margin-left: 0.5vw;
+        font-size: 1.5vw;
+        font-family: "Times New Roman";
+    }
+
+    #myCanvas {
+        width: 60vw;
+        height: 30vw;
+        margin: auto;
+        display: block;
+        border: double 5px magenta;
+        margin-bottom: 5vw;
+    }
+
+    #footer{
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 8.5vw;
+        background-color: black;
+
+    }
+    #footer p {
+
+        padding-top: 2vw;
+        margin-left: 44vw;
+        font-family: papyrus;
+        color: magenta;
+        font-size: 1.5vw;
+
+    }
+}
